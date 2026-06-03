@@ -48,11 +48,16 @@ A visual example of this phenomenon can be seen below.
 | $\beta$ = 0.01 | $\beta$ = 0.05 | $\beta$ = 0.1 |
 
 ## Ablation Study on the Exponentiation of Ringing Detection Ratio
-The Ringing Detection Ratio (RDR) may be defined as follows.
+The Ringing Detection Ratio (RDR) or $\alpha$ between a distorted image ($\tilde{I}$) and reference image ($I$) may be defined as follows.
 
 $$
 \alpha = \frac{|\tilde{Q} - Q|}{Q}
 $$
+
+This ratio measures the increase or decrease in sharpness of the distorted image with respect to the reference image. A higher $\alpha$ intuitively corresponds to more ringing or blur, whereas a lower value corresponds to little ringing or blur. This ratio can be used to construct a ringing map as given in the figure below. In this, the patch size for measuring $\alpha$ has been set to 4. The image size is 512 $\times$ 512. 
+
+
+## Sharpness Informed Metrics
 
 ## Protocol Specifications
 

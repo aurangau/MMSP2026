@@ -29,6 +29,15 @@ $$
 L_c = L(I, \tilde{I}) - \beta \cdot Q(\tilde{I})
 $$
 
+To produce sharper restoration during training, we may set the hyper-parameter value $\beta$ to either reduce the sharpness of the restorations or increase them. The following experiment was also performed as part of our work [1] where we examine the effect of $\beta$. This can be seen in Table 1.
+| $\beta$ | PSNR (dB) | SSIM | $Q$ | LPIPS
+| --- | --- | --- | --- | --- |
+| **0** | **35.069** | **0.944** | **0.153** | **0.127**
+| 0.001 | 35.102 | 0.945 | 0.152 | 0.117
+| 0.01 | 35.101 | 0.945 | 0.154 | 0.117 
+| 0.05 | 34.844 | 0.945 | 0.166 | 0.122
+| 0.1 | 33.641 | 0.940 | 0.183 | 0.127
+
 ## Ablation Study on the Exponentiation of Ringing Detection Ratio
 
 ## Protocol Specifications

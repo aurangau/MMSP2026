@@ -98,7 +98,7 @@ Tables 4 and 5 show the ablation study of exponentiating $\alpha$ to $\rho$ on t
 *Table 4* 
 
 | *ρ*   | 1.05*   | 1.10   | 1.15   | 1.20   | 1.30   | 1.40   | 1.50   | 1.60   | 1.70   | 1.80   | 1.90   | 2.00   |
-| ----- | --------- | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| ----- | --------- | ------| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 | PLCC  | 0.9056* | 0.9051 | 0.9041 | 0.9029 | 0.9002 | 0.8969 | 0.8935 | 0.8913 | 0.8901 | 0.8891 | 0.8881 | 0.8867 |
 | KRCC  | 0.7242* | 0.7225 | 0.7197 | 0.7159 | 0.7099 | 0.7049 | 0.7015 | 0.6981 | 0.6952 | 0.6925 | 0.6892 | 0.6859 |
 | SROCC | 0.9015* | 0.8994 | 0.8965 | 0.8929 | 0.8869 | 0.8817 | 0.8778 | 0.8752 | 0.8689 | 0.8674 | 0.8654 | 0.8629 |
@@ -146,7 +146,19 @@ Tables 8 and 9 demonstrate the same phenomenon on the KADID-10K dataset.
 *Table 9*
 ## Protocol Specifications
 The current paragraph is a list of protocols that were used to perform the experiments. We use a 4 protocol approach.
-### Protocol 1
+### Protocol 1 - Method of Adjustment
+To gauge the preferred level of sharpness for providing estimates of optimal sharpness across different image contents, subjects viewed a single image equipped with a slider and were tasked with adjusting the slider to their preferred level of sharpness. The slider was initialized at 0, which corresponded to a test image with no distortions or gains in sharpness.
+
+### Protocol 2 - Two-Alternative Forced Choice (2AFC)
+To assess whether incorporating a composite loss produced sharper restorations, subjects were presented with pairs of images restored using different methods and loss functions. For each pair, they were forced to select the image they perceived as sharper.
+
+### Protocol 3 - Double Stimulus Impairment Scale (DSIS)
+To examine the correlation between standard Full-Reference (FR) and No-Reference (NR) metrics with DMOS, subjects were shown a Ground Truth (GT) image alongside a sharpened version, generated at varying intensity increments of 0.25 units using unsharp masking (imsharpen() in MATLAB). They were then asked to rate the quality of the sharpened image relative to the GT on a scale of 0 to 100, where a value of 50 meant both images were perceptually identical. A value below 50 corresponded to the sharpened image being worse than GT, and a value above 50 meant that the sharpened image was better than GT. This range was chosen over the standard 5-point scale to better capture perceptual differences. 
+
+We acknowledge the deviation from standard protocol specifications as DSIS assumes that the test image will always be ranked at a lower score than the reference image, which is applicable for degradations such as blur, noise and JPEG artifacts. However, for sharpness enhancement, a slight sharpness increase over the reference image is usually perceptually better. This observation led us to modify the protocol to better suit our problem.
+
+### Protocol 4 - Pairwise Comparison Evaluation
+To assess the overall quality of restorations rather than sharpness, subjects simultaneously viewed two restored images and rated both individually on a scale of 0 to 100, where higher scores indicated better quality.
 
 ## Correlation between Metrics and DMOS
 

@@ -105,6 +105,24 @@ Tables 4 and 5 show the ablation study of exponentiating $\alpha$ to $\rho$ on t
 | RMSE  | 9.1725* | 9.1948 | 9.2391 | 9.2962 | 9.4171 | 9.5621 | 9.7108 | 9.8038 | 9.8550 | 9.8953 | 9.9403 | 9.9956 |
 
 *Table 5*
+The numbers highlighted with * are the ones reported in Table 1 of our paper. 
+
+The similar experiment can be done for SI-SSIM, where we use $\alpha$ to weight SSIM[3]. Tables 6 and 7 demonstrate the effects of exponentiating $\alpha$ to $\rho$ for SSIM on our proposed dataset and KADID-10K dataset respectively. 
+| *ρ*   | 0.05   | 0.10   | 0.15   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | 1.00   |
+| ----- | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| PLCC  | 0.9107 | 0.9100 | 0.9091 | 0.9081 | 0.9058 | 0.9032 | 0.9006 | 0.8980 | 0.8954 | 0.8929 | 0.8904 | 0.8880 |
+| KRCC  | 0.7585 | 0.7611 | 0.7568 | 0.7524 | 0.7497 | 0.7418 | 0.7374 | 0.7339 | 0.7313 | 0.7269 | 0.7269 | 0.7225 |
+| SROCC | 0.9238 | 0.9241 | 0.9223 | 0.9209 | 0.9199 | 0.9156 | 0.9135 | 0.9106 | 0.9096 | 0.9056 | 0.9049 | 0.9020 |
+| RMSE  | 3.4691 | 3.4816 | 3.4977 | 3.5162 | 3.5582 | 3.6032 | 3.6490 | 3.6943 | 3.7384 | 3.7810 | 3.8221 | 3.8616 |
+
+*Table 6*
+
+| *ρ*   | 1.05   | 1.10   | 1.15   | 1.20   | 1.30   | 1.40   | 1.50   | 1.60   | 1.70   | 1.80   | 1.90   | 2.00   |
+| ----- | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| PLCC  | 0.8868 | 0.8856 | 0.8845 | 0.8833 | 0.8811 | 0.8789 | 0.8768 | 0.8747 | 0.8727 | 0.8707 | 0.8688 | 0.8669 |
+| KRCC  | 0.7225 | 0.7190 | 0.7172 | 0.7164 | 0.7146 | 0.7120 | 0.7076 | 0.7058 | 0.7023 | 0.7014 | 0.7006 | 0.6962 |
+| SROCC | 0.9020 | 0.9002 | 0.8989 | 0.8983 | 0.8972 | 0.8958 | 0.8922 | 0.8902 | 0.8886 | 0.8875 | 0.8857 | 0.8836 |
+| RMSE  | 3.8808 | 3.8996 | 3.9180 | 3.9361 | 3.9712 | 4.0050 | 4.0377 | 4.0692 | 4.0997 | 4.1293 | 4.1580 | 4.1861 |
 
 ## Protocol Specifications
 
@@ -117,3 +135,4 @@ Tables 4 and 5 show the ablation study of exponentiating $\alpha$ to $\rho$ on t
 
 [2] Lin, Hanhe, Vlad Hosu, and Dietmar Saupe. "KADID-10k: A large-scale artificially distorted IQA database." 2019 Eleventh International Conference on Quality of Multimedia Experience (QoMEX). IEEE, 2019.
 
+[3] Zhou Wang, A. C. Bovik, H. R. Sheikh and E. P. Simoncelli, "Image quality assessment: from error visibility to structural similarity," in IEEE Transactions on Image Processing, vol. 13, no. 4, pp. 600-612, April 2004, doi: 10.1109/TIP.2003.819861.

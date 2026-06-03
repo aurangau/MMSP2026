@@ -29,7 +29,7 @@ $$
 L_c = L(I, \tilde{I}) - \beta \cdot Q(\tilde{I})
 $$
 
-To produce sharper restoration during training, we may set the hyper-parameter value $\beta$ to either reduce the sharpness of the restorations or increase them. The following experiment was also performed as part of our work [1] where we examine the effect of $\beta$. This can be seen in Table 1.
+To produce sharper restoration during training, we may set the hyper-parameter value $\beta$ to either reduce the sharpness of the restorations or increase them. The following experiment was also performed as part of our work [1]  where we examine the effect of $\beta$. This can be seen in Table 1.
 | $\beta$ | PSNR (dB) | SSIM | $Q$ | LPIPS
 | --- | --- | --- | --- | --- |
 | **0** | **35.069** | **0.944** | **0.153** | **0.127**
@@ -55,3 +55,5 @@ A visual example of this phenomenon can be seen below.
 ## Dataset on MOS, DMOS and Metric Values
 
 ## References
+[1] U. Aurangabadkar, D. Ramsook and A. Kokaram, "A Sharpness Based Loss Function for Removing Out-of-Focus Blur," 2024 IEEE 26th International Workshop on Multimedia Signal Processing (MMSP), West Lafayette, IN, USA, 2024, pp. 1-6, doi: 10.1109/MMSP61759.2024.10743912. GitHub Repo - https://github.com/aurangau/MMSP2024
+

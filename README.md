@@ -64,7 +64,7 @@ This ratio measures the increase or decrease in sharpness of the distorted image
 To measure the Sharpness Informed (SI) - PSNR, we first measure SI-MSE (Equation (2) in the paper) which is as follows.
 
 $$
-\text{SI-MSE}
+\text{SI-MSE}(\tilde{I}, I) = \text{MSE}(\tilde{I}, I) \cdot \alpha^\rho
 $$
 
 

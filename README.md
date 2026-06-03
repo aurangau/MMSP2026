@@ -68,7 +68,7 @@ $$
 $$
 
 We noticed that exponentiating $\alpha$ to $\rho$ results in better Pearson correlation between the metric (SI-PSNR) and Difference Mean Opinion Scores (DMOS). We perform the exponentiation experiment over two datasets - our proposed dataset and KADID-10K [2].
-Tables 3 ansd 4 shows the ablation stufy of exponentiating $alpha$ to $\rho$ on our proposed dataset for SI-PSNR
+Tables 2 and 3 shows the ablation stufy of exponentiating $alpha$ to $\rho$ on our proposed dataset for SI-PSNR
 | *ρ*   | 0.05   | 0.10   | 0.15   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | 1.00   |
 | ----- | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 | PLCC  | 0.7296 | 0.7385 | 0.7471 | 0.7555 | 0.7709 | 0.7847 | 0.7971 | 0.8083 | 0.8185 | 0.8278 | 0.8361 | 0.8432 |

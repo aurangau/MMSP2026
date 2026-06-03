@@ -107,7 +107,7 @@ Tables 4 and 5 show the ablation study of exponentiating $\alpha$ to $\rho$ on t
 *Table 5*
 The numbers highlighted with * are the ones reported in Table 1 of our paper. 
 
-The similar experiment can be done for SI-SSIM, where we use $\alpha$ to weight SSIM[3]. Tables 6 and 7 demonstrate the effects of exponentiating $\alpha$ to $\rho$ for SSIM on our proposed dataset and KADID-10K dataset respectively. 
+The similar experiment can be done for SI-SSIM, where we use $\alpha$ to weight SSIM[3]. Tables 6 and 7 demonstrate the effects of exponentiating $\alpha$ to $\rho$ for SSIM on our proposed dataset. 
 | *ρ*   | 0.05   | 0.10   | 0.15   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | 1.00   |
 | ----- | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 | PLCC  | 0.9107 | 0.9100 | 0.9091 | 0.9081 | 0.9058 | 0.9032 | 0.9006 | 0.8980 | 0.8954 | 0.8929 | 0.8904 | 0.8880 |
@@ -124,6 +124,26 @@ The similar experiment can be done for SI-SSIM, where we use $\alpha$ to weight 
 | SROCC | 0.9020 | 0.9002 | 0.8989 | 0.8983 | 0.8972 | 0.8958 | 0.8922 | 0.8902 | 0.8886 | 0.8875 | 0.8857 | 0.8836 |
 | RMSE  | 3.8808 | 3.8996 | 3.9180 | 3.9361 | 3.9712 | 4.0050 | 4.0377 | 4.0692 | 4.0997 | 4.1293 | 4.1580 | 4.1861 |
 
+*Table 7*
+
+Tables 8 and 9 demonstrate the same phenomenon on the KADID-10K dataset.
+| *ρ*   | 0.05  | 0.10  | 0.15  | 0.20  | 0.30  | 0.40  | 0.50  | 0.60  | 0.70  | 0.80  | 0.90  | 1.00   |
+| ----- | ----- | ----- | ----- | ----- | -------- | ----- | ----- | ----- | ----- | ----- | ----- | ------ |
+| PLCC  | 0.884 | 0.884 | 0.886 | 0.886 | 0.886 | 0.886 | 0.886 | 0.885 | 0.884 | 0.883 | 0.882 | 0.888  |
+| KRCC  | 0.667 | 0.667 | 0.670 | 0.672 | 0.672 | 0.673 | 0.673 | 0.671 | 0.670 | 0.668 | 0.666 | 0.7225 |
+| SROCC | 0.870 | 0.869 | 0.871 | 0.871 | 0.871 | 0.871 | 0.870 | 0.869 | 0.867 | 0.866 | 0.864 | 0.902  |
+| RMSE  | 0.405 | 0.404 | 0.402 | 0.401 | 0.400 | 0.401 | 0.401 | 0.403 | 0.404 | 0.406 | 0.408 | 3.8616 |
+
+*Table 8*
+
+| *ρ*   | 1.05  | 1.10  | 1.15  | 1.20  | 1.30  | 1.40  | 1.50  | 1.60  | 1.70  | 1.80  | 1.90  | 2.00   |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ------ |
+| PLCC  | 0.881 | 0.881 | 0.879 | 0.878 | 0.876 | 0.874 | 0.873 | 0.871 | 0.869 | 0.867 | 0.865 | 0.8669 |
+| KRCC  | 0.665 | 0.664 | 0.662 | 0.660 | 0.658 | 0.656 | 0.654 | 0.651 | 0.649 | 0.646 | 0.643 | 0.6962 |
+| SROCC | 0.863 | 0.862 | 0.860 | 0.858 | 0.856 | 0.854 | 0.851 | 0.849 | 0.847 | 0.844 | 0.841 | 0.8836 |
+| RMSE  | 0.409 | 0.410 | 0.412 | 0.415 | 0.417 | 0.420 | 0.422 | 0.425 | 0.428 | 0.431 | 0.434 | 4.1861 |
+
+*Table 9*
 ## Protocol Specifications
 
 ## Correlation between Metrics and DMOS

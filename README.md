@@ -145,7 +145,7 @@ Tables 8 and 9 demonstrate the same phenomenon on the KADID-10K dataset.
 
 *Table 9*
 ## Protocol Specifications
-The current paragraph is a list of protocols that were used to perform the experiments. We use a 4 protocol approach.
+The current paragraph is a list of protocols that were used to perform the experiments. We use a 4 protocol approach. All protocols were developed in MATLAB and are available by emailing the corresponding author - aurangau@tcd.ie
 ### Protocol 1 - Method of Adjustment
 To gauge the preferred level of sharpness for providing estimates of optimal sharpness across different image contents, subjects viewed a single image equipped with a slider and were tasked with adjusting the slider to their preferred level of sharpness. The slider was initialized at 0, which corresponded to a test image with no distortions or gains in sharpness.
 

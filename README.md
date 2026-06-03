@@ -21,3 +21,5 @@ marking datasets. We show that, on average, images restored
 using a sharpness-aware composite loss are preferred in 67% of
 binarized comparisons, as opposed to losses that do not explicitly
 target sharpness.
+
+## Ablation Study on the selection of Hyper-parameters

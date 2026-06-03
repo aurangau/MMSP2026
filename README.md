@@ -163,6 +163,8 @@ To assess the overall quality of restorations rather than sharpness, subjects si
 ## Correlation between Metrics and DMOS
 
 ## Dataset on MOS, DMOS and Metric Values
+The dataset of the raw MOS, DMOS, corresponding images and the clean MOS, DMOS (post removal of inconsistencies using SUREAL[4]) are available by emailing the corresponding author - aurangau@tcd.ie
+
 
 ## References
 [1] U. Aurangabadkar, D. Ramsook and A. Kokaram, "A Sharpness Based Loss Function for Removing Out-of-Focus Blur," 2024 IEEE 26th International Workshop on Multimedia Signal Processing (MMSP), West Lafayette, IN, USA, 2024, pp. 1-6, doi: 10.1109/MMSP61759.2024.10743912. GitHub Repo - https://github.com/aurangau/MMSP2024
@@ -170,3 +172,5 @@ To assess the overall quality of restorations rather than sharpness, subjects si
 [2] Lin, Hanhe, Vlad Hosu, and Dietmar Saupe. "KADID-10k: A large-scale artificially distorted IQA database." 2019 Eleventh International Conference on Quality of Multimedia Experience (QoMEX). IEEE, 2019.
 
 [3] Zhou Wang, A. C. Bovik, H. R. Sheikh and E. P. Simoncelli, "Image quality assessment: from error visibility to structural similarity," in IEEE Transactions on Image Processing, vol. 13, no. 4, pp. 600-612, April 2004, doi: 10.1109/TIP.2003.819861.
+
+[4] https://github.com/Netflix/sureal

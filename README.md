@@ -46,7 +46,13 @@ A visual example of this phenomenon can be seen below.
 | ![Image 4](Beta_Value_Comp/kodim01_b_r_0_01.png) | ![Image 5](Beta_Value_Comp/kodim01_b_r_0_05.png) | ![Image 6](Beta_Value_Comp/kodim01_b_r_0_1.png) |
 | --- | --- | --- |
 | $\beta$ = 0.01 | $\beta$ = 0.05 | $\beta$ = 0.1 |
+
 ## Ablation Study on the Exponentiation of Ringing Detection Ratio
+The Ringing Detection Ratio (RDR) may be defined as follows.
+
+$$
+\alpha = \frac{|\tilde{Q} - Q|}{Q}
+$$
 
 ## Protocol Specifications
 

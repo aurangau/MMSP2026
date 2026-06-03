@@ -38,6 +38,14 @@ To produce sharper restoration during training, we may set the hyper-parameter v
 | 0.05 | 34.844 | 0.945 | 0.166 | 0.122
 | 0.1 | 33.641 | 0.940 | 0.183 | 0.127
 
+A visual example of this phenomenon can be seen below.
+| ![Image 1](Beta_Value_Comp/kodim01_blurry.png)| ![Image 2](Beta_Value_Comp/kodim01_b_r_onlyMAE.png) | ![Image 3](Beta_Value_Comp/kodim01_b_r_0_001.png) | 
+| --- | --- | --- |
+| Blurry Image | $\beta$ = 0 | $\beta$ = 0.001 |
+
+| ![Image 4](Beta_Value_Comp/kodim01_b_r_0_01.png) | ![Image 5](Beta_Value_Comp/kodim01_b_r_0_05.png) | ![Image 6](Beta_Value_Comp/kodim01_b_r_0_1.png) |
+| --- | --- | --- |
+| $\beta$ = 0.01 | $\beta$ = 0.05 | $\beta$ = 0.1 |
 ## Ablation Study on the Exponentiation of Ringing Detection Ratio
 
 ## Protocol Specifications

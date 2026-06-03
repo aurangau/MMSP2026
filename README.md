@@ -57,6 +57,8 @@ $$
 This ratio measures the increase or decrease in sharpness of the distorted image with respect to the reference image. A higher $\alpha$ intuitively corresponds to more ringing or blur, whereas a lower value corresponds to little ringing or blur. This ratio can be used to construct a ringing map as given in the figure below. In this, the patch size for measuring $\alpha$ has been set to 4. The image size is 512 $\times$ 512. 
 
 
+![Ringing Detection Map](RDR_Map/rdr_map.png)
+
 ## Sharpness Informed Metrics
 
 ## Protocol Specifications

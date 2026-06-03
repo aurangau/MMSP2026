@@ -23,3 +23,13 @@ binarized comparisons, as opposed to losses that do not explicitly
 target sharpness.
 
 ## Ablation Study on the selection of Hyper-parameters
+
+## Ablation Study on the Exponentiation of Ringing Detection Ratio
+
+## Protocol Specifications
+
+## Correlation between Metrics and DMOS
+
+## Dataset on MOS, DMOS and Metric Values
+
+## References

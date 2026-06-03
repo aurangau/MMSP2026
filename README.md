@@ -47,6 +47,8 @@ A visual example of this phenomenon can be seen below.
 | --- | --- | --- |
 | $\beta$ = 0.01 | $\beta$ = 0.05 | $\beta$ = 0.1 |
 
+## Sharpness Informed Metrics
+
 ## Ablation Study on the Exponentiation of Ringing Detection Ratio
 The Ringing Detection Ratio (RDR) or $\alpha$ between a distorted image ($\tilde{I}$) and reference image ($I$) may be defined as follows.
 
@@ -59,7 +61,15 @@ This ratio measures the increase or decrease in sharpness of the distorted image
 
 ![Ringing Detection Map](RDR_Map/rdr_map.png)
 
-## Sharpness Informed Metrics
+To measure the Sharpness Informed (SI) - PSNR, we first measure SI-MSE (Equation (2) in the paper) which is as follows.
+
+$$
+SI-MSE
+$$
+
+
+
+
 
 ## Protocol Specifications
 

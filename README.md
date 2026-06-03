@@ -61,13 +61,13 @@ This ratio measures the increase or decrease in sharpness of the distorted image
 
 ![Ringing Detection Map](RDR_Map/rdr_map.png)
 
-To measure the Sharpness Informed (SI) - PSNR, we first measure SI-MSE (Equation (2) in the paper) which is as follows.
+To measure the Sharpness Informed (SI) - PSNR, we first measure patch-wise SI-MSE (Equation (2) in the paper) which is as follows.
 
 $$
 \text{SI-MSE}(\tilde{I}, I) = \text{MSE}(\tilde{I}, I) \cdot \alpha^\rho
 $$
 
-
+We noticed that exponentiating $\alpha$ to $\rho$ results in better Pearson correlation between the metric (SI-PSNR) and Difference Mean Opinion Scores (DMOS). We perform the exponentiation experiment over two datasets - our proposed dataset and KADID-10K [2].
 
 
 
@@ -79,4 +79,5 @@ $$
 
 ## References
 [1] U. Aurangabadkar, D. Ramsook and A. Kokaram, "A Sharpness Based Loss Function for Removing Out-of-Focus Blur," 2024 IEEE 26th International Workshop on Multimedia Signal Processing (MMSP), West Lafayette, IN, USA, 2024, pp. 1-6, doi: 10.1109/MMSP61759.2024.10743912. GitHub Repo - https://github.com/aurangau/MMSP2024
+[2] Lin, Hanhe, Vlad Hosu, and Dietmar Saupe. "KADID-10k: A large-scale artificially distorted IQA database." 2019 Eleventh International Conference on Quality of Multimedia Experience (QoMEX). IEEE, 2019.
 

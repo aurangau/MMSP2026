@@ -161,9 +161,17 @@ We acknowledge the deviation from standard protocol specifications as DSIS assum
 To assess the overall quality of restorations rather than sharpness, subjects simultaneously viewed two restored images and rated both individually on a scale of 0 to 100, where higher scores indicated better quality.
 
 ## Correlation between Metrics and DMOS
+| Dataset     | Coefficients | SSIM   | LPIPS  | VIF    | MS-SSIM | RDR    | GSSIM  | Q      | BRISQUE | NIQE   | NIMA   | PSNR   | PSNR-HVS-M | PSNR-HVS | PSNR-HMA | PSNR-HA | *SI-PSNR* | *SI-SSIM* |
+| ----------- | ------------ | ------ | ------ | ------ | ------- | ------ | ------ | ------ | ------- | ------ | ------ | ------ | ---------- | -------- | -------- | ------- | --------- | --------- |
+|             | PLCC         | 0.8854 | 0.9218 | 0.7914 | 0.8798  | 0.5119 | 0.9094 | 0.4626 | 0.5686  | 0.6200 | 0.1355 | 0.8762 | 0.8733     | 0.8682   | 0.8753   | 0.8629  | 0.9056    | 0.8860    |
+|             | KRCC         | 0.7028 | 0.7419 | 0.6006 | 0.6899  | 0.1915 | 0.7066 | 0.3204 | 0.4052  | 0.4619 | 0.0985 | 0.6960 | 0.6858     | 0.6834   | 0.6800   | 0.6670  | 0.7242    | 0.6720    |
+| KADID-10K   | SROCC        | 0.8877 | 0.9155 | 0.7943 | 0.8803  | 0.2202 | 0.8936 | 0.4611 | 0.5823  | 0.6506 | 0.1198 | 0.8779 | 0.8713     | 0.8685   | 0.8667   | 0.8552  | 0.9015    | 0.8710    |
+|             | PLCC         | 0.9120 | 0.8558 | 0.7209 | 0.8899  | 0.8800 | 0.8877 | 0.5365 | 0.6245  | 0.5243 | 0.3159 | 0.7206 | 0.7617     | 0.7226   | 0.7024   | 0.6713  | 0.8574    | 0.9100    |
+|             | KRCC         | 0.7532 | 0.6865 | 0.5452 | 0.7234  | 0.6988 | 0.7120 | 0.3819 | 0.4328  | 0.3801 | 0.1462 | 0.5548 | 0.5899     | 0.5557   | 0.5408   | 0.5065  | 0.6812    | 0.7585    |
+| Our Dataset | SROCC        | 0.9204 | 0.8701 | 0.7283 | 0.8999  | 0.8934 | 0.9003 | 0.5194 | 0.6121  | 0.5060 | 0.1637 | 0.7405 | 0.7832     | 0.7418   | 0.7263   | 0.6847  | 0.8694    | 0.9238    |
 
 ## Dataset on MOS, DMOS and Metric Values
-The dataset of the raw MOS, DMOS, corresponding images and the clean MOS, DMOS (post removal of inconsistencies using SUREAL[4]) are available by emailing the corresponding author - aurangau@tcd.ie
+The dataset of the raw MOS, DMOS, corresponding images and the clean MOS, DMOS (post removal of inconsistencies using SUREAL[4]) are available on request by emailing the corresponding author - aurangau@tcd.ie
 
 
 ## References

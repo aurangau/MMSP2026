@@ -24,9 +24,11 @@ target sharpness.
 
 ## Ablation Study on the selection of Hyper-parameters
 The equation (5) in our paper is as follows:
+
 $$
 L_c = L(I, \tilde{I}) - \beta \cdot Q(\tilde{I})
 $$
+
 ## Ablation Study on the Exponentiation of Ringing Detection Ratio
 
 ## Protocol Specifications

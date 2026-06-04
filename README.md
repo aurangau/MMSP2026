@@ -52,6 +52,8 @@ A visual example of this phenomenon can be seen below.
 | --- |
 | Sharpness Informed PSNR |
 
+The algorithm above provides a description for SI-PSNR. The similar experiment can be done for SI-SSIM where the patch-wise $\alpha$ is multiplied with SSIM to take into account sharpness, ringing, blur and noise.
+
 
 ## Ablation Study on the Exponentiation of Ringing Detection Ratio
 The Ringing Detection Ratio (RDR) or $\alpha$ between a distorted image ($\tilde{I}$) and reference image ($I$) may be defined as follows.
